@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1093500822013",
+    "firebase_url": "https://fashionetti-a9c86.firebaseio.com",
+    "project_id": "fashionetti-a9c86",
+    "storage_bucket": "fashionetti-a9c86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093500822013:android:33f6bcae2cf8aa69a3b994",
+        "android_client_info": {
+          "package_name": "com.enzitechnologies.fashionetti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093500822013-6mb2nihc4mpb6oun467s949rcvqgl2ln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWNloMkl_aWn6XOfVku2dgCWTJpGYiltA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093500822013-6mb2nihc4mpb6oun467s949rcvqgl2ln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
