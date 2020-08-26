@@ -71,14 +71,15 @@ class _PhonesPageState extends State<PhonesPage> {
     String imageurl,
   ) {
     return Padding(
-      padding: const EdgeInsets.all(16.0),
+      padding: const EdgeInsets.all(20.0),
       child: Stack(
         children: <Widget>[
+          //
           Container(
             width: 250.00,
             height: 270.0,
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(24.0),
+              borderRadius: BorderRadius.circular(30.0),
               image: DecorationImage(
                 image: new NetworkImage(imageurl),
                 fit: BoxFit.fill,
@@ -98,6 +99,7 @@ class _PhonesPageState extends State<PhonesPage> {
                   height: 200.0,
                   child: Column(
                     children: <Widget>[
+                      // Phone Name Test widget
                       SizedBox(height: 10.0),
                       Padding(
                         padding: const EdgeInsets.only(left: 8.0, right: 8.0),
@@ -110,21 +112,22 @@ class _PhonesPageState extends State<PhonesPage> {
                                       fontWeight: FontWeight.bold))),
                         ),
                       ),
-                      SizedBox(height: 10.0),
+                      SizedBox(height: 15.0),
                       Container(
+                        padding: const EdgeInsets.all(5.2),
                         child: Center(
                             child: Text(description,
                                 style: TextStyle(
                                     color: Color(0xff2da9ef),
-                                    fontSize: 16.0,
+                                    fontSize: 18.0,
                                     fontWeight: FontWeight.bold))),
                       ),
-                      SizedBox(height: 10.0),
+                      SizedBox(height: 5.0),
                       Container(
                           child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
-                          Text(price.toString() + " ksh",
+                          Text("Price : ksh " + price.toString(),
                               style: TextStyle(
                                   color: Color(0xffff6f00), fontSize: 16.0)),
                           IconButton(
